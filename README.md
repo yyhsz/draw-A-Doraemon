@@ -1,2 +1,2 @@
-# draw-a-pikachu
-画一个皮卡丘
+# draw a doraemon
+一个可以调速的，展现制作哆啦A梦过程的网页
