@@ -1,4 +1,4 @@
-*{margin: 0;padding: 0;box-sizing: border-box;}
+*{margin: 0;padding: 0;box-sizing: border-box;transition: all 0.5s}
 *::after{box-sizing: border-box;}
 *::before{box-sizing: border-box;}
 body{
@@ -8,8 +8,23 @@ body{
 }
 .code-wrapper{
     height: 50%;width: 100%;
-    border: 1px solid red;
     overflow: auto;
+    padding-bottom: 10px;
+}
+.code-wrapper .action{
+    position: fixed;
+    top:0;right:3%;
+    display: flex;
+    flex-direction: column;
+}
+.code-wrapper a{
+    margin: 6px;
+}
+.code-wrapper a.active{
+    box-shadow: 1px 1px 2px 2px rgba(4, 31, 75, 0.4)
+}
+.code-wrapper .action>button:focus{
+    outline: none;
 }
 img{
     max-width: 80%;
@@ -21,5 +36,21 @@ img{
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    align-items:center;justify-content:center
+    align-items:center;justify-content:center;
+    overflow: hidden;
 }
+
+/*将代码颜色预置为黑色*/
+.token.selector{
+    color:black ;
+}
+.token.punctuation{
+    color:black ;    
+}
+.token.property{
+    color:black ;
+}
+.token.function{
+    color:black;
+}
+
