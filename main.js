@@ -29,6 +29,7 @@
             duration = 100
             break
             case '中速':
+        
             duration = 40
             break
             case '快速':
