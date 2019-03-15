@@ -19,7 +19,6 @@ body{
 }
 .code-wrapper a{
     margin: 6px;
-    
 }
 .code-wrapper a.active{
     box-shadow: 1px 1px 2px 2px rgba(4, 31, 75, 0.4)

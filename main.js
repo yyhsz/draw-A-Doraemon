@@ -48,7 +48,7 @@
     }
     .preview{
         position: relative;width:100%;height: 100%;
-        border:1px solid rgb(216, 38, 135);
+        background: rgb(174, 244, 247);       
         box-shadow:  0 0 3px 3px rgba(0, 0, 0, 0.2)
     }
     /*等等，这代码的颜色太丑了，让我高亮一下*/
