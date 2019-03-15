@@ -26,14 +26,13 @@
         let speed  = $(x.currentTarget).text()
         switch(speed){
             case '慢速':
-            duration = 100
+            duration = 50
             break
             case '中速':
-        
-            duration = 40
+            duration = 30
             break
             case '快速':
-            duration = 10
+            duration = 5
         }
    })
 
